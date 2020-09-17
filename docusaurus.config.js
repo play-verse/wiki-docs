@@ -3,10 +3,10 @@ module.exports = {
   tagline: '',
   url: 'https://wiki.playverse.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Playverse', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  onBrokenLinks: 'log',
+  favicon: 'img/logo.png',
+  organizationName: 'play-verse', // Usually your GitHub org/user name.
+  projectName: 'wiki-playverse', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Wiki Playverse',
@@ -57,6 +57,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Playverse, Inc. Powered by Docusaurus Facebook.`,
     },
   },
+  plugins: [require.resolve('docusaurus-lunr-search')],
   presets: [
     [
       '@docusaurus/preset-classic',
