@@ -1,6 +1,14 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "Wiki Playverse": ["welcome"],
+    "Introducing Virtual Roleplay": [
+      "pengenalan",
+    ],
+    "Pekerjaan": [
+      "job",
+      "sweeper",
+      "pizzadelivery",
+      "trashmaster",
+    ]
   },
 };
