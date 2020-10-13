@@ -3,6 +3,7 @@ module.exports = {
     "Wiki Playverse": ["welcome"],
     "Introducing Virtual Roleplay": [
       "pengenalan",
+      "rules-vrp"
     ],
     "Panduan dan Tutorial": [
       "cara-bermain-samp",
@@ -12,10 +13,27 @@ module.exports = {
     ],
     "Pekerjaan": [
       "job",
-      "sweeper",
-      "pizzadelivery",
-      "trashmaster",
-      "lumberjack",
+      {
+        type: 'category',
+        label: 'Tanpa Modal',
+        collapsed: false,
+        items: [
+          "sweeper",
+          "pizzadelivery",
+          "trashmaster",
+          "lumberjack",
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Menggunakan Modal',
+        collapsed: false,
+        items: [
+          "fishing",
+          "mining",
+          "berkebun"  
+        ],
+      },
     ],
     "Item dan Material": [
       "item"
