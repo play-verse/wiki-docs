@@ -21,7 +21,6 @@ module.exports = {
           "sweeper",
           "pizzadelivery",
           "trashmaster",
-          "lumberjack",
         ],
       },
       {
@@ -29,6 +28,7 @@ module.exports = {
         label: 'Menggunakan Modal',
         collapsed: false,
         items: [
+          "lumberjack",
           "fishing",
           "mining",
           "berkebun"  
