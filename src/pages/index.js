@@ -56,8 +56,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Play in Our Little Universe"
+      description="Playverse Community Indonesia - Merupakan komunitas gamers Indonesia yang fokus pada bidang multiplayer seperti SAMP maupun game-game multiplayer lainnya.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
