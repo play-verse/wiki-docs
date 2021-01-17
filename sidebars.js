@@ -21,6 +21,7 @@ module.exports = {
           "sweeper",
           "pizzadelivery",
           "trashmaster",
+          "electrician"
         ],
       },
       {
