@@ -54,7 +54,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Playverse, Inc. Powered by Docusaurus Facebook.`,
+      copyright: `Copyright © 2020 - ${new Date().getFullYear()} Playverse, Inc. Powered by Docusaurus Facebook.`,
     },
   },
   plugins: [require.resolve('docusaurus-lunr-search')],
