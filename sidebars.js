@@ -7,6 +7,7 @@ module.exports = {
     ],
     "Panduan dan Tutorial": [
       "cara-bermain-samp",
+      "bermain-samp-android",
       "cara-daftar-akun",
       "key-and-command",
       "berinteraksi-dengan-npc",
